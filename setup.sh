@@ -1,12 +1,12 @@
 #!/bin/bash
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # System Request : Debian 9+/Ubuntu 18.04+/20+
-# Develovers » usdhennn
-# Email      » gemilangkinasih@gmail.com
-# telegram   » https://t.me/gemilangkinasih
-# whatsapp   » wa.me/+628984880039
+# Develovers » AdijayaStore࿐
+# Email      » Adijayastore@gmail.com
+# telegram   » https://t.me/ADJstoreVpn
+# whatsapp   » wa.me/+6281214726068
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-# usdhennn
+# AdijayaStore࿐
 
 Green="\e[92;1m"
 RED="\033[31m"
@@ -92,7 +92,7 @@ gem install lolcat
 apt install wondershaper -y
 clear
 # REPO    
-    REPO="https://raw.githubusercontent.com/AdijayaVPN/instalasi/main/"
+    REPO="https://raw.githubusercontent.com/AdijayaVPN28/VIP/main/"
 
 ####
 start=$(date +%s)
@@ -317,7 +317,7 @@ sts="${Error}"
 fi
 TIMES="10"
 CHATID="5607017630"
-KEY="6589107112:AAG0L2tAwnmpiCJsAq6y671PSNyQWJDzknw"
+KEY="6957152015:AAHe7oyXbCr0qlSTTqn4nvM4Ol2-r6jqpLI"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
     TIMEZONE=$(printf '%(%H:%M:%S)T')
     TEXT="
@@ -542,7 +542,7 @@ print_success "Password SSH"
 function udp_mini(){
 clear
 print_install "Memasang Service Limit IP & Quota"
-wget -q https://raw.githubusercontent.com/AdijayaVPN/instalasi/main/config/fv-tunnel && chmod +x fv-tunnel && ./fv-tunnel
+wget -q https://raw.githubusercontent.com/AdijayaVPN28/VIP/main/config/fv-tunnel && chmod +x fv-tunnel && ./fv-tunnel
 
 # // Installing UDP Mini
 mkdir -p /usr/local/kyt/
