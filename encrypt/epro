@@ -1,12 +1,12 @@
 #!/bin/sh
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # System Request : Debian 9+/Ubuntu 18.04+/20+
-# Develovers » Gemilangkinasih࿐
-# Email      » gemilangkinasih@gmail.com
-# telegram   » https://t.me/gemilangkinasih
-# whatsapp   » wa.me/+628984880039
+# Develovers » AdijayaStore࿐
+# Email      » Adijayastore@gmail.com
+# telegram   » https://t.me/ADJstoreVpn
+# whatsapp   » wa.me/+6281214726068
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-# Gemilangkinasih࿐
+# AdijayaStore࿐
 
 export RED='\033[0;31m'
 export GREEN='\033[0;32m'
@@ -20,11 +20,11 @@ export NC='\033[0m'
 PATH="/usr/bin:$PATH"
 x=`basename $0`
 if test $# = 0; then
-  echo  "          ${PURPLE}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
-  echo  "          ${RED}#----------------------${NC}${GREEN}[MENU  ENCRYPTER]${NC}${RED}--------------------#${NC}"
-  echo  "          ${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
-  echo  "          ${RED}#${NC}            ${GREEN} USAGE : ketik enc spasi namafile${NC}             ${RED} #${NC}"
-  echo  "          ${YELLOW}-------------------------------------------------------------${NC}"
+  echo  "          ${BLUE}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
+  echo  "          ${YELLOW}#----------------------${NC}${GREEN}[MENU  ENCRYPTER]${NC}${YELLOW}--------------------#${NC}"
+  echo  "          ${BLUE}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
+  echo  "          ${YELLOW}#${NC}            ${YELLOW} USAGE : ketik enc spasi namafile${NC}             ${BLUE} #${NC}"
+  echo  "          ${BLUE}-------------------------------------------------------------${NC}"
   echo  "          ${BLUE}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
   exit 1
 fi
