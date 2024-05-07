@@ -1,12 +1,12 @@
 #!/bin/bash
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # System Request : Debian 9+/Ubuntu 18.04+/20+
-# Develovers » AdijayaStore࿐
-# Email      » Adijayastore@gmail.com
-# telegram   » https://t.me/ADJstoreVpn
-# whatsapp   » wa.me/+6281214726068
+# Develovers » Gemilangkinasih࿐
+# Email      » gemilangkinasih@gmail.com
+# telegram   » https://t.me/gemilangkinasih
+# whatsapp   » wa.me/+628984880039
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-# AdijayaStore࿐
+# Gemilangkinasih࿐
 
 NS=$( cat /etc/xray/dns )
 PUB=$( cat /etc/slowdns/server.pub )
@@ -18,13 +18,13 @@ NC='\e[0m'
 apt update && apt upgrade
 apt install python3 python3-pip git
 cd /usr/bin
-wget https://raw.githubusercontent.com/AdijayaVPN/instalasi/main/bot/bot.zip
+wget https://raw.githubusercontent.com/gemilangvip/autoscript-free/main/bot/bot.zip
 unzip bot.zip
 mv bot/* /usr/bin
 chmod +x /usr/bin/*
 rm -rf bot.zip
 clear
-wget https://raw.githubusercontent.com/AdijayaVPN/instalasi/main/bot/kyt.zip
+wget https://raw.githubusercontent.com/gemilangvip/autoscript-free/main/bot/kyt.zip
 unzip kyt.zip
 pip3 install -r kyt/requirements.txt
 
@@ -72,8 +72,8 @@ echo -e "━━━━━━━━━━━━━━━━━━━━━━━�
 echo "Token Bot      : $bottoken"
 echo "Admin          : $admin"
 echo "Domain         : $domain"
-# echo "Pub            : $PUB"
-# echo "Host           : $NS"
+echo "Pub            : $PUB"
+echo "Host           : $NS"
 echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo "Setting Bot Success!"
 sleep 2
